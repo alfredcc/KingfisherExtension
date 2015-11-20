@@ -20,10 +20,10 @@
 
 ```swift
 
-	let defaultOptions: KingfisherOptionsInfo = [
-       .Options([.BackgroundDecode, .LowPriority]),
-       .Transition(ImageTransition.Fade(0.55))
-    ]
+let defaultOptions: KingfisherOptionsInfo = [
+    .Options([.BackgroundDecode, .LowPriority]),
+    .Transition(ImageTransition.Fade(0.55))
+]
 
 ```
 
@@ -38,8 +38,6 @@
 cell.imageView.kfe_setRoundImageWithURLString(avatarURLStrings[indexPath.row], cornerRadiusRatio: 0.25)
 
 ```
-
-![](https://github.com/Limon-catch/KingfisherExtension/blob/master/images/KingfisherExtension.png)
 
 
 

@@ -35,11 +35,11 @@
 
 ```swift
 
-	cell.imageView.kfe_setRoundImageWithURLString(avatarURLStrings[indexPath.row], cornerRadiusRatio: 0.25)
+cell.imageView.kfe_setRoundImageWithURLString(avatarURLStrings[indexPath.row], cornerRadiusRatio: 0.25)
 
 ```
 
-[](https://github.com/Limon-catch/KingfisherExtension/tree/master/images/KingfisherExtension.png)
+![](https://github.com/Limon-catch/KingfisherExtension/blob/master/images/KingfisherExtension.png)
 
 
 

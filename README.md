@@ -4,7 +4,7 @@
 ##介绍
 
 
-文章：[Producter Tips](http://tips.producter.io)
+文章：[Producter Tips](http://tips.producter.io/kingfisherextension-jie-shao/)
 
 
 对[Kingfisher](https://github.com/onevcat/Kingfisher)进行了简单的封装，

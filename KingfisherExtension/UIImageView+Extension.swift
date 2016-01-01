@@ -130,7 +130,9 @@ extension UIImage {
         UIGraphicsBeginImageContextWithOptions(self.size, false, 1)
         UIBezierPath(roundedRect: rect, cornerRadius: cornerRadius).addClip()
         drawInRect(rect)
-        return UIGraphicsGetImageFromCurrentImageContext()
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return image
     }
     
 }

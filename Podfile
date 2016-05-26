@@ -6,7 +6,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 def pods
-    pod 'Kingfisher'
+    pod 'Kingfisher', '~> 2.4'
 end
 
 target 'KingfisherExtension' do
